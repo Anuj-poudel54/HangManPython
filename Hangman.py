@@ -18,7 +18,7 @@ def round_up_num(num):
         return int(num)
 
 
-class TicTacToe:
+class HangManWord:
 
     def __init__(self) -> None:
         self.word = ''
@@ -84,7 +84,7 @@ class TicTacToe:
 
 
 if __name__ == "__main__":
-    game = TicTacToe()
+    game = HangManWord()
 
     word = input("Choose a Word: ")
     game.get_word(word)
